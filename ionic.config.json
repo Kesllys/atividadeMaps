@@ -1,0 +1,7 @@
+{
+  "name": "atividadeMaps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
