@@ -1,0 +1,30 @@
+1) Criar um projeto ionic com comando no cmd - ionic start "atividadeMaps" e escolher Framework Angular e Template Blank;
+
+2) Adicionar o Capacitor GoogleMaps - npm install @capacitor/google-maps;
+
+3) Adicionar o Capacitor GeoLocation - npm install @capacitor/geolocation;
+
+4) Atualizar o Capacitor - npx cap sync;
+4.1) Se não funcionar - ionic cap sync;
+
+5) Adicionar Schema CUSTOM_ELEMENTS_SCHEMA e importa-lo no home.module.ts;
+
+6) Colocar o componente no home.html - <capacitor-google-map #map"></capacitor-google-map>;
+
+7) Adicionar style no home.page.scss;
+
+8) Adicionar a chave no environments/environments.ts;
+
+9) Fazer os importes Environment, GoogleMap, GeoLocation, Position, ElementRef e ViewChild no home.page.ts;
+
+10) Criar uma variavel do Mapa e Referencia do Html no home.page.ts;
+
+11) Criar o metodo createMap no home.page.ts;
+
+12) Criar o metodo buscarPosicao usando o Capacitor GeoLocation no home.page.ts;
+
+13) Criar o metodo focarMapa no home.page.ts;
+
+14) Criar o metodo adicionarMarcador no home.page.ts;
+
+15) Executar o projeto - ionic serve -o.
